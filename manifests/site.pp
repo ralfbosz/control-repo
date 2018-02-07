@@ -30,3 +30,7 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node centos.vm {
+  include role::jira
+}
