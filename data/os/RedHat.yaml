@@ -1,1 +1,2 @@
-profile::jira::javahome: '/usr/java/default',
+---
+profile::jira::javahome: '/usr/java/default'
