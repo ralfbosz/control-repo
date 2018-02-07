@@ -43,6 +43,7 @@ mod "saz/sudo",                               '5.0.0'
 mod "saz/timezone",                           '4.1.1'
 mod "stahnma/epel",                           '1.3.0'
 mod "stm/debconf",                            '2.1.0'
+mod 'puppetlabs-postgresql',                  '5.2.1'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
