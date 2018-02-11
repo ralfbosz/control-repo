@@ -1,4 +1,7 @@
 class profile::jdk8 {
+
+  tag 'jdk8'
+
   java::oracle { 'jdk8' :
     ensure        => 'present',
     version       => '8',

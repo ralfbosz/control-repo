@@ -1,4 +1,7 @@
 class profile::postgresql {
+
+  tag 'postgresql'
+
   class { '::postgresql::server': }
 
   postgresql::server::db { 'jira':
