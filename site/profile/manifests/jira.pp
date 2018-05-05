@@ -5,9 +5,6 @@ class profile::jira (
 
   tag 'jira'
 
-  require java
-  require postgresql
-
   class { '::jira':
     javahome => $javahome,
     version  => $jiraversion,
